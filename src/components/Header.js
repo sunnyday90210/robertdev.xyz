@@ -51,7 +51,7 @@ const Header = () => (
             const homeLink = home && (
               <Image
                 src={Logo}
-                width="50px"
+                width="75px"
                 alt="Portfolio Logo"
                 onClick={home.onClick}
               />
