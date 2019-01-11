@@ -11,7 +11,7 @@ const Triangle = styled.div`
     const border = `${props.height[0]} solid ${color};`;
     return props.invertY
       ? `border-bottom: ${border}; bottom: 0;`
-      : `border-top: ${border};`;
+      : `border-top: ${border}; `;
   }}
   /* prettier stop */
   ${props => {
@@ -35,7 +35,7 @@ const Triangle = styled.div`
       return props.invertX
         ? `border-left-width: ${width};`
         : `border-right-width: ${width};`;
-    }};
+    }}
   }
 `;
 
